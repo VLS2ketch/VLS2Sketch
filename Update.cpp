@@ -78,7 +78,6 @@ int main(int argc, char* argv[]){
     double seconds, finalRuntime;
     struct matrix_descr descr;
 
-    // 初始化描述符
     descr.type = SPARSE_MATRIX_TYPE_GENERAL;
     descr.mode = SPARSE_FILL_MODE_FULL;
     descr.diag = SPARSE_DIAG_NON_UNIT;
