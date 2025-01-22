@@ -48,6 +48,6 @@ python getEmbedding.py --dataset ogbn-product --K 200 --timestep 10 --start_year
 ## Evaluation
 ```
 python nodeClassification.py --dataset ogbn-product --K 200 --timestep 10 --start_year 0     
-python linkPrediction.py --dataset ogbn-product --timestep 10 --start_year 0   
+python linkPrediction.py --dataset ogbn-product --K 200 --timestep 10 --start_year 0   
 ```
 
